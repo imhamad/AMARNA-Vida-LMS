@@ -1,0 +1,10 @@
+name: 'Opigno User Selection'
+type: module
+description: 'Opigno User Selection Module'
+package: 'Custom'
+core_version_requirement: ^9
+
+# Information added by Drupal.org packaging script on 2021-09-14
+version: '3.0.0-beta2'
+project: 'opigno_learning_path'
+datestamp: 1631613883

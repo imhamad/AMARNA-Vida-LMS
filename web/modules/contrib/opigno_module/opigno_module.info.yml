@@ -1,0 +1,14 @@
+name: Opigno Module
+type: module
+description: Opigno Modules functionality.
+core_version_requirement: ^9
+package: Opigno
+dependencies:
+  - h5p:h5p
+  - drupal:pdf
+  - drupal:opigno_skills_system
+
+# Information added by Drupal.org packaging script on 2021-09-14
+version: '3.0.0-beta2'
+project: 'opigno_module'
+datestamp: 1631613811

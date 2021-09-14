@@ -1,0 +1,14 @@
+name: Opigno Calendar Event
+type: module
+description: Provides a calendar event entity type to be used to attach entities to a Calendar.
+dependencies:
+  - calendar:calendar
+  - entity:entity
+  - opigno_class:opigno_class
+package: Opigno
+core_version_requirement: ^9
+
+# Information added by Drupal.org packaging script on 2021-09-10
+version: '3.0.0-beta1'
+project: 'opigno_calendar_event'
+datestamp: 1631309059

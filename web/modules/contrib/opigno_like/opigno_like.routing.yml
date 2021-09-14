@@ -1,0 +1,28 @@
+# Like/dislike the entity.
+opigno_like.like_action:
+  path: '/ajax/opigno-like/{eid}/like/{type}'
+  defaults:
+    _controller: '\Drupal\opigno_like\Controller\LikeController::likeAction'
+    type: 'opigno_post'
+  methods: ['POST']
+  requirements:
+    _role: 'authenticated'
+
+# Get the list of users who liked the entity.
+opigno_like.get_likers:
+  path: '/ajax/opigno-like/{eid}/likers/{type}'
+  defaults:
+    _controller: '\Drupal\opigno_like\Controller\LikeController::getLikers'
+    type: 'opigno_post'
+  methods: [ 'POST' ]
+  requirements:
+    _role: 'authenticated'
+
+# Close the popup with the list of users who liked the entity.
+opigno_like.close_popup:
+  path: '/ajax/opigno-like/close-popup'
+  defaults:
+    _controller: '\Drupal\opigno_like\Controller\LikeController::closePopup'
+  methods: [ 'POST' ]
+  requirements:
+    _role: 'authenticated'
